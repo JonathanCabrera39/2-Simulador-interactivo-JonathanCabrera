@@ -7,7 +7,6 @@ let remera = 'color de la remera es:'
  if ( comprar != "E"){
     function agregarRemeras(){
         let cantidadRemeras = prompt("cuantas remeras quieres ?");
-        // let selecTalle = prompt("Escriba acá su tarea");
         for(let i = 1; i <= cantidadRemeras; i++) {
             let selecColor = prompt("seleccione color (1-roja) (2-negra) (3-azul)");
                 if(selecColor == "1"){
